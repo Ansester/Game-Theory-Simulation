@@ -9,6 +9,22 @@ This project involves the development of a C++ program designed to simulate the 
 5. Print the final scores and declare the winner.
 6. Option to play again or exit the program.
 
+## Quick Start
+
+```bash
+g++ -std=c++17 main.cpp -o ipd_sim
+./ipd_sim
+```
+
+Strategy codes:
+
+- `e`: always defect
+- `g`: always cooperate
+- `t`: tit-for-tat
+- `r`: random
+
+The simulation runs 20 rounds and reports each round's actions and final scores.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Technical Details](#technical-details)
@@ -68,6 +84,18 @@ The Iterated Prisoner's Dilemma is a classic game theory scenario where two play
    - `void dropPlayer(int playerID)`: Removes a player from the game.
 
 ## Usage Instructions
+Compile first:
+
+```bash
+g++ -std=c++17 main.cpp -o ipd_sim
+```
+
+Then run:
+
+```bash
+./ipd_sim
+```
+
 1. **Setting Player Strategies**:
    - Action: Select options 1 and 2.
    - Input: Enter the strategy codes for each player (e.g., 'e' for Evil, 'g' for Good, 't' for Tit for Tat, 'r' for Random).
