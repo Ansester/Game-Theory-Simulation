@@ -33,7 +33,6 @@ The simulation runs 20 rounds and reports each round's actions and final scores.
   - [Data Structures](#data-structures)
   - [Functions](#functions)
 - [Usage Instructions](#usage-instructions)
-- [Conclusion](#conclusion)
 
 ## Technical Details
 
@@ -115,6 +114,3 @@ Then run:
 4. **Exiting or Playing Again**:
    - Action: After the game concludes, choose to play again or exit.
    - Note: Selecting to play again will restart the simulation.
-
-## Conclusion
-This project successfully demonstrates the simulation of the Iterated Prisoner's Dilemma using object-oriented programming principles in C++. The program accurately simulates player interactions based on various strategies, calculates scores, and determines the winner, providing a useful tool for studying game theory and strategy dynamics.
